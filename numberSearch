@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+// Function to search for a number in an array
+bool searchNumber(int arr[], int n, int key) {
+    for (int i = 0; i < n; ++i) {
+        if (arr[i] == key) {
+            return true;  // Number found
+        }
+    }
+    return false;  // Number not found
+}
